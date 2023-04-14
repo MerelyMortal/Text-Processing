@@ -1,9 +1,3 @@
-class Token:
-    def __init__(token, word, frequency):
-        token.word = word
-        token.frequency = frequency
-
-
 def tokenize(TextFilePath):
     # returns a list of tokens from the file #
     tokens = TextFilePath.split(); 
